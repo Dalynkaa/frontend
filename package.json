@@ -1,26 +1,52 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3"
-  }
+	"name": "frontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"react": "19.0.0-rc-66855b96-20241106",
+		"react-dom": "19.0.0-rc-66855b96-20241106",
+		"next": "15.0.3",
+		"zustand": "^5.0.1",
+		"tailwind-merge": "^2.2.1",
+		"tailwind-variants": "^0.1.20",
+		"remark": "^15.0.1",
+		"remark-behead": "^3.1.0",
+		"remark-gfm": "^4.0.0",
+		"remark-parse": "^11.0.0",
+		"sass": "^1.70.0",
+		"slug-gen": "^1.0.0",
+		"sonner": "^1.4.0",
+		"react-dropzone": "^14.2.9",
+		"react-hook-form": "^7.53.0",
+		"react-markdown": "^9.0.1",
+		"lucide-react": "^0.441.0",
+		"axios": "^1.6.7",
+		"clsx": "^2.1.0",
+		"dayjs": "^1.11.10",
+		"framer-motion": "^11.0.6",
+		"jose": "^5.9.6",
+		"js-cookie": "^3.0.5",
+		"@tanstack/react-query": "^5.18.0",
+		"@tanstack/react-query-devtools": "^5.18.0",
+		"@next/env": "^14.2.8"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.3.0",
+		"@types/js-cookie": "^3.0.6",
+		"typescript": "^5",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"cross-env": "^7.0.3",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.1",
+		"eslint": "^8",
+		"eslint-config-next": "15.0.3"
+	}
 }
